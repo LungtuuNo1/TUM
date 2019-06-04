@@ -55,10 +55,7 @@ export default class HomeScreen extends React.Component {
           title="                  Register               "
           customClick={() => this.props.navigation.navigate('RegisterScreen')}
         />
-         <Mybutton
-          title="                  Server/QR               "
-          customClick={() => this.props.navigation.navigate('ServerScreen')}
-        />
+         
 
       </View>
     );
